@@ -48,6 +48,19 @@ $(document).ready(function(){
 });
 
 
+// slick slider 2 //
+$(document).ready(function(){
+  $('.slick-slider2').slick({
+   dots: true,
+   autoplay: true,
+   infinite: true,
+   slidesToShow: 2,
+   slidesToScroll: 2,
+   speed: 400,
+   rows: 2
+  });
+});
+
 
 // кнопка наверх //
 
